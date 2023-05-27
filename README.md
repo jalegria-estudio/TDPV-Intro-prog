@@ -44,7 +44,7 @@ _Roadmap in my development:_
 + Learn to about class in c++.
 + Learn to about assembler language.
 + Understand reading C++ Handbook References.
-+ Install Zinjai 👉👈🙆🤷
++ ~~Install Zinjai~~ 👉👈🙆🤷
 
 
 ## Autor ⌨️
