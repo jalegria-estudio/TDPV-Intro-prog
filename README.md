@@ -23,6 +23,23 @@ Parameters:
  * -o \<file>  _Place the output into <file>._
  * -Wall       _Enable most warning messages._
 
+## Execute with additional libraries 🧁
+Sometimes in the subject we work with additionals libraries to make more easy and enjoyable the learning programming.
+
+Until this moment, we use Conio's library. This a old library for input/output streams console: (con)sole (i)nput (o)utput. It works for M$-DOS but in Linux-like systems It isn't exist a equivalent. Because conio.h provides simple and easy to use functions for programming learning, a lot of developers tried to migrate and clone it.
+
+Some files includes conio.h, this is "conio.h" library in our subject. To compile the exercices files you need copy conio.h in you /usr/includes folder, for that you can use my installer (it's in /utils) o copy it manually.
+Others files uses conio_am.h, It's a other Borland-style conio implementation but I think is better implementation than "the subject official library" because conio_am.h has more functions and file-documentation is good and It has developed with teaching idea in mind.
+
+In other way, if you want to use similar functions on GNU/Linux you can  learns about ncurses library. It's a powerfull library to make UI in console or text-based user interfaces. You can use it in your code installing libncurses-dev from official repository in your distro.
+
+Resources for conio and ncurses libraries:
+ - [ncurses documentation](https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/)
+ - [conioAM](https://sourceforge.net/projects/coniohcloneturboccpp/)
+ - ["official signature" conio.h](https://sourceforge.net/projects/conio4linux/)
+ - [borland-style conio implementation for MinGW/Dev-C++](https://conio.sourceforge.net/)
+
+
  ## Notice ⚠️
 This source codes are solutions for programming subject's exercices, be careful if you copy&paste. Maybe the code works but It isn't the best or It has a lot personal annotation.
 
@@ -37,6 +54,7 @@ Check this sites maybe it can help you:
  + https://www.learncpp.com/
  + https://learn.microsoft.com/es-es/cpp/cpp/cpp-language-reference?view=msvc-170/
  + https://www.w3schools.com/cpp/default.asp/
+ + http://www.delorie.com/djgpp/doc/libc/libc_toc.html
 
 
 ### To-Do:
